@@ -2,5 +2,5 @@
 - name: All roles
   hosts: localhost
   roles:
-    - {role: system_config}
     - {role: docker}
+    - {role: system_config}
