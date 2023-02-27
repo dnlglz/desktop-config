@@ -1,0 +1,5 @@
+---
+- name: All roles
+  hosts: localhost
+  roles:
+    - {role: system_config}
