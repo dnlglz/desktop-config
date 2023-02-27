@@ -1,8 +1,7 @@
 ---
 
 - name: Install docker
-  community.general.pacman:
-    executable: pamac
+  package:
     name:
       - docker
       - docker-compose
