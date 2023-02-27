@@ -2,7 +2,5 @@
 - name: All roles
   hosts: localhost
   tasks:
-    - name: Import system config
-      ansible.builtin.import_tasks: system_config
     - name: Import docker
       ansible.builtin.import_tasks: docker
