@@ -1,6 +1,4 @@
 ---
 - name: All roles
   hosts: localhost
-  tasks:
-    - name: Import docker
-      ansible.builtin.import_tasks: docker
+- import_playbook: tasks/docker.yml
