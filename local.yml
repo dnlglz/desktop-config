@@ -1,6 +1,8 @@
 ---
 - name: All roles
   hosts: localhost
-  roles:
-    - {role: docker}
-    - {role: system_config}
+  tasks:
+    - name: Import system config
+      ansible.builtin.import_tasks: system_config
+    - name: Import docker
+      ansible.builtin.import_tasks: docker
