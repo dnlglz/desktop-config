@@ -1,0 +1,9 @@
+---
+
+- name: Install docker
+  community.general.pacman:
+    executable: pamac
+    name:
+      - docker
+      - docker-compose
+    state: present

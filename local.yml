@@ -3,3 +3,4 @@
   hosts: localhost
   roles:
     - {role: system_config}
+    - {role: docker}
