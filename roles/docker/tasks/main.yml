@@ -3,5 +3,4 @@
 - name: Install docker
   community.general.pacman:
     name: docker
-    executable: yay
     state: present
