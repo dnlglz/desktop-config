@@ -1,4 +1,6 @@
 ---
 - name: All roles
   hosts: localhost
-- import_playbook: tasks/docker.yml
+  roles:
+      - {role: system_config}
+      - {role: docker}

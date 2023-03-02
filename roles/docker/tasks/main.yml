@@ -1,8 +1,6 @@
 ---
 
 - name: Install docker
-  package:
+  aur:
     name:
       - docker
-      - docker-compose
-    state: present

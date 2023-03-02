@@ -1,0 +1,6 @@
+[submodule "roles/ansible-aur"]
+	path = roles/ansible-aur
+	url = https://github.com/pigmonkey/ansible-aur
+[submodule "roles/library/ansible-aur"]
+	path = roles/library/ansible-aur
+	url = https://github.com/pigmonkey/ansible-aur
