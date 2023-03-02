@@ -1,6 +1,5 @@
 ---
 
 - name: Install docker
-  aur:
-    name:
-      - docker
+  debug:
+    msg: "hola"
