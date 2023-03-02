@@ -1,5 +1,7 @@
 ---
 
 - name: Install docker
-  debug:
-    msg: "hola"
+  community.general.pacman:
+    name: docker
+    executable: pamac
+    state: present
