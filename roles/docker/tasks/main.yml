@@ -4,5 +4,7 @@
   community.general.pacman:
     name:
       - docker
-      - yay
+      - ctop
     state: present
+    executable: yay
+    extra_args: --builddir /var/cache/yay
