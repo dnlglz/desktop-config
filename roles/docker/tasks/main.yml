@@ -2,5 +2,7 @@
 
 - name: Install docker
   community.general.pacman:
-    name: docker
+    name:
+      - docker
+      - yay
     state: present
